@@ -1,0 +1,12 @@
+This document contains the list of Third Party Software included with
+the ReSharper PhantomJS extension, along with the license information.
+
+Third Party Software may impose additional restrictions and it is the
+user's responsibility to ensure that they have met the licensing
+requirements of PhantomJS and the relevant license of the Third Party
+Software they are using.
+
+PhantomJS - https://phantomjs.org
+License: BSD.
+Reference: https://raw.github.com/ariya/phantomjs/master/LICENSE.BSD
+
