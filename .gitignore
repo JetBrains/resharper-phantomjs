@@ -1,0 +1,7 @@
+*.tmp
+*.bak
+*.swp
+*.user
+*.nupkg
+Thumbs.db
+phantomjs-*-windows
