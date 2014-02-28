@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
     <metadata>
         <id>phantomjs</id>
-        <version>1.9.2</version>
+        <version>1.9.7</version>
         <title>PhantomJS Test Runner</title>
         <authors>JetBrains</authors>
         <owners>JetBrains</owners>
@@ -11,13 +11,15 @@
         <iconUrl>https://raw.github.com/JetBrains/resharper-phantomjs/master/icon.png</iconUrl>
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
         <description>Bundles PhantomJS and configures ReSharper's JavaScript test runner to use it for headless unit test running.</description>
+        <releaseNotes>&#8226; Updated to PhantomJS 1.9.7
+&#8226; Support for 8.2 EAP</releaseNotes>
         <tags>resharper phantomjs javascript test testing</tags>
         <dependencies>
             <dependency id="ReSharper" version="8.1.16" />
         </dependencies>
     </metadata>
     <files>
-        <file src="phantomjs.dotSettings" target="ReSharper\v8.1\settings\" />
-        <file src="phantomjs-1.9.2-windows\*" target="tools\" />
+        <file src="phantomjs.dotSettings" target="ReSharper\vAny\settings\" />
+        <file src="phantomjs-1.9.7-windows\*" target="tools\" />
     </files>
 </package>
