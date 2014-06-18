@@ -6,9 +6,9 @@
         <title>PhantomJS Test Runner</title>
         <authors>JetBrains</authors>
         <owners>JetBrains</owners>
-        <licenseUrl>https://raw.github.com/JetBrains/resharper-phantomjs/master/license.txt</licenseUrl>
-        <projectUrl>https://raw.github.com/JetBrains/resharper-phantomjs</projectUrl>
-        <iconUrl>https://raw.github.com/JetBrains/resharper-phantomjs/master/icon.png</iconUrl>
+        <licenseUrl>https://raw.githubusercontent.com/JetBrains/resharper-phantomjs/master/license.txt</licenseUrl>
+        <projectUrl>https://raw.githubusercontent.com/JetBrains/resharper-phantomjs</projectUrl>
+        <iconUrl>https://raw.githubusercontent.com/JetBrains/resharper-phantomjs/master/icon.png</iconUrl>
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
         <description>Bundles PhantomJS and configures ReSharper's JavaScript test runner to use it for headless unit test running.</description>
         <releaseNotes>&#8226; Bug fix to point to the right location
