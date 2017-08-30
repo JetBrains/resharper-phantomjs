@@ -1,6 +1,8 @@
+[![official JetBrains project](http://jb.gg/badges/official-flat-square.svg)](https://confluence.jetbrains.com/display/ALL/JetBrains+on+GitHub)
+
 # resharper-phantomjs
 
-An extension for ReSharper 8.1 that bundles [PhantomJS](http://phantomjs.org) and automatically configures ReSharper to use it when running JavaScript tests. You can install the extension from ReSharper's Extension Manager dialog.
+An extension for ReSharper that bundles [PhantomJS](http://phantomjs.org) and automatically configures ReSharper to use it when running JavaScript tests. You can install the extension from ReSharper's Extension Manager dialog.
 
 # More info
 
@@ -9,7 +11,3 @@ ReSharper 7 introduced support for [running JavaScript unit tests](http://blogs.
 However, ReSharper 7 also introduced the option to run tests with PhantomJS, which is a "headless" web browser, based on WebKit. This is a browser with no user interface, and since it doesn't need to draw anything - it's FAST. The only downside is that you need to download and install PhantomJS yourself, and point ReSharper to the executable.
 
 This extension automates the process. It bundles the current version of PhantomJS (1.9.2) into the extension, and includes a settings file that automatically configures ReSharper to use this bundled version.
-
-# Requirements
-
-This extension requires ReSharper 8.1.
